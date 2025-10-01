@@ -171,43 +171,145 @@ const about: About = {
     display: true, // set to false to hide this section
     title: "Technical skills",
     skills: [
-      {
-        title: "Automation with Selenium",
-        description: (
-          <>Experienced in building reliable test automation scripts using Selenium, TestNG, and Aquality Services to ensure software quality and efficiency.</>
-        ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/selenium-automation.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/software-testing.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "API Testing using Postman",
-        description: (
-          <>Skilled in testing and validating APIs using Postman, creating automated test scripts, and generating detailed reports with Newman.</>
-        ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/postman-api.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-    ],
+              {
+                title: "Manual Testing",
+                description: (
+                  <>Requirement Analysis, Test Planning, Test Case Design and Review,
+                    Test Execution, Evaluation, Root Cause Analysis, Bug Reporting, Knowledge on Agile and
+                    Scrum methodologies.
+                    <br />
+                    <strong>Concepts:</strong> SDLC, STLC, Bug Life Cycle.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/Manual1.png", alt: "Project image", width: 16, height: 9 },
+                  { src: "/images/projects/project-01/Manual2.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "Automation with Selenium",
+                description: (
+                  <>Experienced in building reliable test automation scripts using Selenium, TestNG, and Aquality Services to ensure software quality and efficiency.</>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/selenium-automation.jpg", alt: "Project image", width: 16, height: 9 },
+                  { src: "/images/projects/project-01/software-testing.jpg", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "Automation with BDD",
+                description: (
+                  <>Skilled in implementing Behavior Driven Development (BDD) frameworks using Cucumber, Gherkin, and Selenium.
+                    Experienced in writing feature files with clear scenarios, step definitions, and integrating with TestNG for
+                    seamless automation. Focused on improving collaboration between developers, testers, and stakeholders
+                    through living documentation.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/cucumber.png", alt: "Project image", width: 16, height: 9 },
+                  { src: "/images/projects/project-01/cucumber2.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "API Testing using Postman & Newman",
+                description: (
+                  <>Skilled in testing and validating APIs using Postman, creating automated test scripts, and generating detailed reports with Newman.</>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/postman-api.jpg", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "Performance Testing",
+                description: (
+                  <>Proficient in using <strong>JMeter</strong> for load, stress, and performance testing.
+                    Skilled in creating and executing test plans to analyze system behavior, measure response
+                    times, and identify bottlenecks to ensure scalability and reliability.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/JMeter.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "Source & Version Control",
+                description: (
+                  <>Experienced in using <strong>Git</strong> for version control and <strong>GitHub</strong> for
+                    collaboration, code review, and repository management. Skilled in branching strategies,
+                    pull requests, and resolving merge conflicts to maintain clean and efficient codebases.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/GIT.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "CI/CD Pipelines",
+                description: (
+                  <>Experienced in configuring and managing <strong>Jenkins</strong> pipelines for continuous integration
+                    and continuous delivery. Skilled in automating build, test, and deployment processes to ensure faster,
+                    reliable, and efficient software delivery.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/CICD.png", alt: "Project image", width: 18, height: 9 },
+                  { src: "/images/projects/project-01/Jenkins.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                title: "Bug Tracking & Project Management",
+                description: (
+                  <>Proficient in using <strong>Jira</strong> for bug tracking, task management, and sprint planning.
+                    Experienced in Agile workflows, creating user stories, managing backlogs, and collaborating with
+                    cross-functional teams to ensure smooth project delivery.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/Jira.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+              {
+                  title: "Cross-Browser Testing",
+               description: (
+                 <>
+                   Experienced in using <strong>BrowserStack</strong> to perform cross-browser and cross-device testing.
+                   Skilled in verifying website and application functionality across multiple browsers, OS versions,
+                   and screen sizes to ensure consistent user experience.
+
+                        </>
+                          ),
+                          images: [
+                            { src: "/images/projects/project-01/BrowserStack.png", alt: "Project image", width: 18, height: 9 },
+                          ],
+                        },
+                     {
+                         title: "Containerization with Docker",
+                         description: (
+                           <>
+                             Experienced in using <strong>Docker</strong> to create, manage, and deploy containerized applications.
+                             Skilled in building Docker images, writing Dockerfiles, and orchestrating containers to ensure
+                             consistent and scalable development and testing environments.
+                           </>
+                                              ),
+                                              images: [
+                                                { src: "/images/projects/project-01/Docker.png", alt: "Project image", width: 16, height: 10 },
+                                              ],
+                                            },
+              {
+                title: "Programming Languages",
+                description: (
+                  <>Skilled in <strong>Java</strong> for test automation, object-oriented programming, and backend logic,
+                    as well as <strong>JavaScript</strong> for dynamic web development, front-end interactivity, and
+                    automation scripting.
+                  </>
+                ),
+                images: [
+                  { src: "/images/projects/project-01/Java.png", alt: "Project image", width: 16, height: 9 },
+                  { src: "/images/projects/project-01/JavaScript.png", alt: "Project image", width: 16, height: 9 },
+                ],
+              },
+            ]
+
   },
 };
 
