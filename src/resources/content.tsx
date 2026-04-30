@@ -28,7 +28,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/hi-mehedi",
+    link: "https://github.com/mehedi-hasan-soumik",
   },
   {
     name: "LinkedIn",
@@ -65,7 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-       I'm Mehedi, a SQA engineer at <strong>JVAI</strong>, where I craft intuitive
+       I'm Mehedi, a SQA engineer at <strong>a1qa</strong>, where I craft intuitive
        <br />
        user experiences.
     </>
