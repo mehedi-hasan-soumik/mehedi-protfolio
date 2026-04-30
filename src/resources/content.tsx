@@ -14,7 +14,7 @@ const person: Person = {
 
 const newsletter: Newsletter = {
   display: true,
-  title: <>Subscribe to {person.name}'s Newsletter</>,
+  title: <>Subscribe to {person.name}&apos;s Newsletter</>,
   description: (
     <>
       I occasionally write about Software Quality Assurance, sharing insights on the intersection of creativity, precision, and engineering.
@@ -28,7 +28,7 @@ const social: Social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/hi-mehedi",
+    link: "https://github.com/mehedi-hasan-soumik",
   },
   {
     name: "LinkedIn",
@@ -65,7 +65,7 @@ const home: Home = {
   },
   subline: (
     <>
-       I'm Mehedi, a SQA engineer at <strong>JVAI</strong>, where I craft intuitive
+       I&apos;m Mehedi, a Test Automation Engineer at <strong>a1qa</strong>, where I craft intuitive
        <br />
        user experiences.
     </>
@@ -105,7 +105,7 @@ const about: About = {
     experiences: [
       {
         company: "Join Venture AI",
-        timeframe: "2025 - Present",
+        timeframe: "2025 - 2026",
         role: "SQA Engineer",
         achievements: [
           <>
@@ -133,11 +133,14 @@ const about: About = {
       },
       {
      company: "A1qa.",
-     timeframe: "2025 - Present(Part Time)",
-     role: "QA Automation Engineer",
+     timeframe: "2025 - Present",
+     role: "Test Automation Engineer",
      achievements: [
        <>
          Designed and implemented automated test suites using Selenium and TestNG, improving regression testing efficiency by 35%.
+       </>,
+       <>
+         Designed and implemented automated test suites using Playwright and TestNG, improving regression testing efficiency by 40%.
        </>,
        <>
          Conducted API testing with Postman and Newman, validating backend functionality and generating detailed reports for stakeholders.
@@ -196,6 +199,16 @@ const about: About = {
                   { src: "/images/projects/project-01/software-testing.jpg", alt: "Project image", width: 16, height: 9 },
                 ],
               },
+          {
+                          title: "Automation with Playwright",
+                          description: (
+                            <>Experienced in building reliable test automation scripts using Playwright and TestNG</>
+                          ),
+                          images: [
+                            { src: "/images/projects/project-01/PlayWright.png", alt: "Project image", width: 16, height: 9 },
+                            { src: "/images/projects/project-01/software-testing.jpg", alt: "Project image", width: 16, height: 9 },
+                          ],
+                        },
               {
                 title: "Automation with BDD",
                 description: (
